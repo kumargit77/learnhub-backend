@@ -1,5 +1,5 @@
 // student.js - Handles Student Dashboard & Course Viewer logic
-const API_BASE = 'http://localhost:8080/api';
+const API_BASE = window.location.origin + '/api';
 let currentStudentId = localStorage.getItem('userId');
 
 let allCourses = [];
